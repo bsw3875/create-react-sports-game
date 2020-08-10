@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@font-face {
+  font-family: "Score Board";
+  src: url('https://cdn.jsdelivr.net/gh/dteirney/trains.maxx.co.nz/fonts/scoreboard/scoreboard-webfont.eot');
+  src: url('https://cdn.jsdelivr.net/gh/dteirney/trains.maxx.co.nz/fonts/scoreboard/scoreboard-webfont.eot') format('embedded-opentype'),
+       url('https://cdn.jsdelivr.net/gh/dteirney/trains.maxx.co.nz/fonts/scoreboard/scoreboard-webfont.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/dteirney/trains.maxx.co.nz/fonts/scoreboard/scoreboard-webfont.ttf') format('truetype'),
+       url('https://cdn.jsdelivr.net/gh/dteirney/trains.maxx.co.nz/fonts/scoreboard/scoreboard-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: "againtsregular";
+  src: url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.eot');
+  src: url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.eot') format('embedded-opentype'),
+       url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.ttf') format('truetype'),
+       url('https://cdn.jsdelivr.net/gh/max-barry/demo.vhs/src/fonts/againts-webfont.svg') format('svg');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.ScoreBoard {
+    display: flex;
+    justify-content: center;
+    font-family: "Score Board", sans-serif;
+    text-align: center;
+    background: #1308b6;
+    color: #c51515;
+    text-shadow: 0 0 3px #11100e;
+    padding: 1rem 0;
+}
+
+.ScoreBoard h3 {
+  margin: 0;
+}
+
+.ScoreBoard .teamStats {
+  flex: 1;
+}
+
+.Game {
+  text-align: center;
+}
+
+.Team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+}
+
+.Team .identity {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Team img {
+  max-width: 200px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.versus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.versus h1 {
+  font-family: againtsregular, oswald, sans-serif;
+  font-size: 500%;
+  color: rgb(49, 33, 189);
+  text-shadow: 2px 2px 0 rgb(248, 7, 7);
+}
+
+button {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(48, 122, 233);
+  border: 0;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  box-shadow: 2px 2px 0 black;
 }
