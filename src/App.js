@@ -1,24 +1,29 @@
 import React from 'react';
 import "./App.css";
 import Game from "./components/game/Game";
-import "../../assets/images";
+import allStarsLogo from "./assets/images/allStars.png";
+import blazersLogo from "./assets/images/blazers.jpg"
+import cometsLogo from "./assets/images/comets.jpg"
+import rocketsLogo from "./assets/images/rockets.jpg"
+
+
 
 function App(props) {
   const allStars = {
     name: 'All Stars',
-   logoSrc: "../../assets/images/allStars.png"
+   logoSrc: allStarsLogo
   }
   const blazers = {
     name: 'Blazers',
-    logoSrc: "../../assets/images/blazers.jpg"
+    logoSrc: blazersLogo
   }
   const comets = {
     name: 'comets ',
-    logoSrc: "../../assets/images/comets.jpg"
+    logoSrc: cometsLogo
   }
   const rockets = {
     name: 'rockets',
-    logoSrc: "../../assets/images/rockets.jpg"
+    logoSrc: rocketsLogo
   }
 
   return (
