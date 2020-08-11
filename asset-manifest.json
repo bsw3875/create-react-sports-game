@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/create-react-sports-game/static/css/main.b38e3ed9.chunk.css",
+    "main.js": "/create-react-sports-game/static/js/main.5177fc12.chunk.js",
+    "main.js.map": "/create-react-sports-game/static/js/main.5177fc12.chunk.js.map",
+    "runtime-main.js": "/create-react-sports-game/static/js/runtime-main.6e981c9a.js",
+    "runtime-main.js.map": "/create-react-sports-game/static/js/runtime-main.6e981c9a.js.map",
+    "static/js/2.fbb68554.chunk.js": "/create-react-sports-game/static/js/2.fbb68554.chunk.js",
+    "static/js/2.fbb68554.chunk.js.map": "/create-react-sports-game/static/js/2.fbb68554.chunk.js.map",
+    "index.html": "/create-react-sports-game/index.html",
+    "precache-manifest.d6fc01a9800bf0c815f6c6b238fbc0bd.js": "/create-react-sports-game/precache-manifest.d6fc01a9800bf0c815f6c6b238fbc0bd.js",
+    "service-worker.js": "/create-react-sports-game/service-worker.js",
+    "static/css/main.b38e3ed9.chunk.css.map": "/create-react-sports-game/static/css/main.b38e3ed9.chunk.css.map",
+    "static/js/2.fbb68554.chunk.js.LICENSE.txt": "/create-react-sports-game/static/js/2.fbb68554.chunk.js.LICENSE.txt",
+    "static/media/Back+Board.wav": "/create-react-sports-game/static/media/Back+Board.edb1b73e.wav",
+    "static/media/Ball+Hit+Cheer.wav": "/create-react-sports-game/static/media/Ball+Hit+Cheer.3473f71e.wav",
+    "static/media/allStars.png": "/create-react-sports-game/static/media/allStars.ed106cd0.png",
+    "static/media/blazers.jpg": "/create-react-sports-game/static/media/blazers.ad156338.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e981c9a.js",
+    "static/js/2.fbb68554.chunk.js",
+    "static/css/main.b38e3ed9.chunk.css",
+    "static/js/main.5177fc12.chunk.js"
+  ]
+}
